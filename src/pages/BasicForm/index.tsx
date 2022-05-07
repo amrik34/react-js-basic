@@ -1,4 +1,4 @@
-import { Button, Checkbox, Col, Form, Input, Row, Select } from "antd";
+import { Button, Checkbox, Col, Form, Input, Row, Select, Typography } from "antd";
 
 import 'antd/dist/antd.css';
 import './basicform.css';
@@ -19,6 +19,7 @@ const BasicForm = () => {
 
             autoComplete="off"
         >
+            <Typography.Title level={2}>Register Form</Typography.Title>
             <Form.Item
                 label="First name"
                 name="firstname"

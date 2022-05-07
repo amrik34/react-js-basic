@@ -6,3 +6,7 @@
 .basicform .interests .ant-checkbox-wrapper {
     margin-top: 8px;
 }
+
+.basicform h2 {
+    padding-left: 33.33333333%;
+}
